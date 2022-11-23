@@ -4,4 +4,4 @@ The algorithms are sorted by year and day, in each file you will see a part I on
 
 For now, all solution are coded in python, I will try later to enhance the programming languages with C or C++ for exemple.
 
-To use the solution copy the input from the advent of code site and paste them in the data.txt file 
+To use the solution copy the input from the advent of code site and paste them in the data.txt file.
