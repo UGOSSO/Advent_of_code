@@ -1,4 +1,4 @@
-Input = open("data.txt", "r")
+Input = open("data2.txt", "r")
 values = Input.read()
 Input.close()
 
