@@ -1,4 +1,4 @@
-Input = open("./(2021)_seventh_edition/data/data3.txt", "r")
+Input = open("./data/2021/data3.txt", "r")
 values = Input.read()
 Input.close()
 
