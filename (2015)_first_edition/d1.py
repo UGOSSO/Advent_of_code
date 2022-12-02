@@ -23,3 +23,6 @@ def basement(S) :
         if floor == -1 : return i+1
     
     return False
+
+# print(floor(string_of_values)) -> Part I
+# print(basement(string_of_values)) -> Part II
