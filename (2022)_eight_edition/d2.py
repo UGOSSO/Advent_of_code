@@ -14,3 +14,4 @@ def score(L) :
     #make a list of the values of each paly and return their sum
     return sum([dico_part1[i] for i in L]), sum([dico_part2[i] for i in L])
 
+# print(score(list_of_values))
