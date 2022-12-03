@@ -10,11 +10,12 @@ def in_both_part(L) :
     res = 0
 
     for i in L :
+        #find the common elt between the both half 
         for j in i :
             if j in set(i[:len(i)//2]) & set(i[len(i)//2:]) :
                 temp = j 
                 
-  
+        #add the value of the find letter 
         if temp in 'azertyuiopqsdfghjklmwxcvbn' : res += ord(temp) - 96
         if temp in "AZERTYUIOPQSDFGHJKLMWXCVBN" : res += ord(temp) - 38
 
@@ -24,13 +25,14 @@ def in_both_part(L) :
 def in_three(L) :
     res = 0
 
+    #find the common elt between the three line 
     for i in range(0, len(L)-2, 3) :
         for element in L[i]:
             if element in L[i+1] :
                 if element in L[i+2] :
                     temp = element
         
-  
+        #add the value of the find letter 
         if temp in 'azertyuiopqsdfghjklmwxcvbn' : res += ord(temp) - 96
         if temp in "AZERTYUIOPQSDFGHJKLMWXCVBN" : res += ord(temp) - 38
 
