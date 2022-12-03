@@ -27,3 +27,6 @@ def bythree(L) :
 
     #apply the precedent function on the new list 
     return incrI(temp)
+
+# print(incrI(list_of_values)) #-> Part I
+# print(bythree(list_of_values)) #-> Part II

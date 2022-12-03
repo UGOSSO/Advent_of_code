@@ -25,3 +25,6 @@ def capcha2(S) :
         if S[i] == S[(i+temp)%len(S)] : res+=int(S[i])
 
     return res 
+
+# print(capcha(string_of_values)) #-> Part I
+# print(capcha2(string_of_values)) #-> Part II

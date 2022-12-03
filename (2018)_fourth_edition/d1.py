@@ -22,3 +22,6 @@ def twice(L) :
             freq+=f
             if freq in obtained : return freq
             obtained.add(freq)
+
+# print(freq(list_of_values)) #-> Part I
+# print(twice(list_of_values)) #-> Part II

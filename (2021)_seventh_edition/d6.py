@@ -27,3 +27,6 @@ def poisson(L, number_of_day) :
         x = x[1], x[2], x[3], x[4], x[5], x[6], x[7]+x[0], x[8], x[0]
     
     return sum(x)
+
+# print(poisson(list_of_values, 80)) #-> Part I
+# print(poisson(list_of_values, 256)) # -> Part II

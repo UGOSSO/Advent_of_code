@@ -24,7 +24,7 @@ def slide(L) :
     return res 
 
 #Part II
-def slide(L) :
+def slide_(L) :
     res11, res31, res51, res71, res12, start11, start31, start51, start71, start12 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 
 
     #here we have to loop one that go down one by one and the other two by two for the last test 
@@ -59,3 +59,6 @@ def slide(L) :
         
     #return the product of each result of the given slide 
     return  res11*res31*res51*res71*res12
+
+# print(slide(list_of_values)) #-> Part I
+# print(slide_(list_of_values)) #-> Part II

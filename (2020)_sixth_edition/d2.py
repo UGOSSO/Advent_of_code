@@ -23,4 +23,4 @@ def valid(L) :
 
     return res_partI, res_partII 
 
-print(valid(list_of_values))
+# print(valid(list_of_values))

@@ -15,5 +15,5 @@ def podium(L) :
     #return the sum of the last three element of the sorted list 
     return sum(sorted(L)[-3:])
 
-# print(most(list_of_values)) -> Part I
-# print(podium(list_of_values)) -> Part II
+# print(most(list_of_values)) #-> Part I
+# print(podium(list_of_values)) #-> Part II

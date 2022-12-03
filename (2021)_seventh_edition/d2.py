@@ -50,3 +50,5 @@ def place_aim(L) :
     
     return forward*depth 
 
+# print(place(list_of_values)) #-> Part I
+# print(place_aim(list_of_values)) #-> Part II

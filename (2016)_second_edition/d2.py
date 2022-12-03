@@ -82,3 +82,6 @@ def bathroom_code_correct(L) :
         code+=digicode[start[0]][start[1]]
 
     return code
+
+# print(bathroom_code(list_of_values)) #-> Part I
+# print(bathroom_code_correct(list_of_values)) #-> Part II

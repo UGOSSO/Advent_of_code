@@ -29,3 +29,6 @@ def expense_report_3(L) :
             #2020-i-j is in L we have i in L, j in L, k = 2020-i-j in L and i+j+k = 2020 by definition so we have our three number 
             if 2020-i-j in L :
                 return i*j*(2020-i-j)
+
+# print(expense_report_2(list_of_values)) #-> Part I
+# print(expense_report_3(list_of_values)) #-> Part II

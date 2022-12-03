@@ -23,3 +23,6 @@ def fuel__for_fuel(L) :
             base[i] = base[i]//3-2
 
     return res
+
+# print(fuel_CU(list_of_values)) #-> Part I
+# print(fuel__for_fuel(list_of_values)) #-> Part II

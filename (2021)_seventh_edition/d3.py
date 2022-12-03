@@ -100,4 +100,5 @@ def ox_co(L) :
     temp = distrib(L, 0)
     return sol(0, temp, temp, L, L)
 
-print(ox_co(list_of_values))
+# print(power_comp(list_of_values)) #-> Part I
+# print(ox_co(list_of_values)) #-> Part II
