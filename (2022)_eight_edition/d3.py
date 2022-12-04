@@ -14,7 +14,8 @@ def in_both_part(L) :
         for j in i :
             if j in set(i[:len(i)//2]) & set(i[len(i)//2:]) :
                 temp = j 
-                
+                break
+
         #add the value of the find letter 
         if temp in 'azertyuiopqsdfghjklmwxcvbn' : res += ord(temp) - 96
         if temp in "AZERTYUIOPQSDFGHJKLMWXCVBN" : res += ord(temp) - 38
@@ -31,6 +32,7 @@ def in_three(L) :
             if element in L[i+1] :
                 if element in L[i+2] :
                     temp = element
+                    break
         
         #add the value of the find letter 
         if temp in 'azertyuiopqsdfghjklmwxcvbn' : res += ord(temp) - 96
