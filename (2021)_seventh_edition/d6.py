@@ -1,9 +1,9 @@
-Input = open("./data/2021/data6.txt", "r")
+Input = open("./data.txt", "r")
 values = Input.read()
 Input.close()
 
 #transform the input in a usable data structure
-list_of_values = list(map(int, values.split(" ").split("\n")))
+list_of_values = list(map(int, values.split(",")))
 
 #work for part I and II
 def poisson(L, number_of_day) :
