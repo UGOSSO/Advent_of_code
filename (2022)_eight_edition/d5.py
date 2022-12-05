@@ -1,4 +1,4 @@
-Input = open("./data.txt", "r")
+Input = open("./data/2022/data5.txt", "r")
 stack = ''
 for i in range(8) :    
     stack+=Input.readline()
@@ -14,7 +14,6 @@ stack = [i.replace("    ", '[0]').replace(' ', '').replace('[', '').replace(']',
 list_of_stack = ['' for i in range(len(stack[0]))]
 list_of_stack = ["".join([list_of_stack[i]+j[i] for j in stack]) for i in range(len(stack[0]))]
 list_of_stack = [i[::-1].replace('0', '') for i in list_of_stack]
-print(list_of_stack)
 #for the deplacement lines 
 list_of_values = list(map(str, values.split("\n")))
 list_of_values = list(list(map(str, i.split(' '))) for i in list_of_values)
