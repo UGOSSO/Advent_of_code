@@ -40,5 +40,5 @@ def in_three(L) :
 
     return res 
 
-# print(in_both_part(list_of_values)) #-> Part II  
-# print(in_three(list_of_values)) #-> Part I
+# print(in_both_part(list_of_values)) #-> Part I  
+# print(in_three(list_of_values)) #-> Part II
