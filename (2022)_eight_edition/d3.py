@@ -11,8 +11,8 @@ def in_both_part(L) :
 
     for i in L :
         #find the common elt between the both half 
-        for j in i :
-            if j in set(i[:len(i)//2]) & set(i[len(i)//2:]) :
+        for j in i[:len(i)//2] :
+            if j in i[len(i)//2:] :
                 temp = j 
                 break
 
@@ -28,7 +28,7 @@ def in_three(L) :
 
     #find the common elt between the three line 
     for i in range(0, len(L)-2, 3) :
-        for element in L[i]:
+        for element in L[i] :
             if element in L[i+1] :
                 if element in L[i+2] :
                     temp = element
@@ -40,6 +40,5 @@ def in_three(L) :
 
     return res 
 
-
-# print(in_both_part(list_of_values)) #-> Part II
+# print(in_both_part(list_of_values)) #-> Part II  
 # print(in_three(list_of_values)) #-> Part I
