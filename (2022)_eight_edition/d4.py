@@ -14,11 +14,8 @@ def in_another(L) :
     res = 0 
 
     for j in L :
-        #making set from the list that represent each assignment for the test 
-        a, b = set(j[0]), set(j[1])
-        
-        #if the set of a or b is in the set of the other or if they are equal one assignment is in another 
-        if a < b or b < a or a == b : res+=1
+        #check both inclusion with first and last term
+        if (j[0][0] <= j[1][0] and j[0][-1] >= j[1][-1]) or (j[0][0] >= j[1][0] and j[0][-1] <= j[1][-1]) : res += 1
 
     return res 
 
@@ -36,5 +33,5 @@ def overlap(L) :
 
     return res
 
-# print(in_another(list_of_values))  #-> Part I
-# print(overlap(list_of_values)) #-> Part II
+print(in_another(list_of_values))  #-> Part I
+print(overlap(list_of_values)) #-> Part II
