@@ -8,7 +8,7 @@ list_of_values = [i for i in list_of_values if 'cd ' in i or any(char.isdigit() 
 list_of_values = [i.replace('$ ', '') for i in list_of_values]
 list_of_values = [list(map(str, i.split(' ')))for i in list_of_values]
 #creating a tree
-from anytree import Node, RenderTree
+from anytree import Node
 
 nodes = []
 home = Node('/')
